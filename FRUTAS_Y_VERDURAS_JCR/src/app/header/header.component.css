@@ -1,0 +1,25 @@
+.nav-item:hover{
+    border-color:#79AD00;
+    border-radius: 10px;
+}
+
+.nav-item{
+    margin: 2px;
+    border: 2px solid transparent;
+    display: flex;
+    place-content: center;
+}
+
+.nav-item.active{
+    background-color: #79AD00;
+    border-radius: 10px;
+}
+
+.nav-item.active .a{
+    color: white;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+}

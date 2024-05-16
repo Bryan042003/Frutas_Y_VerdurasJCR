@@ -1,31 +1,109 @@
 <app-header></app-header>
 
-<body style="height: 100%;width: 100%;">
+<body style="height: 100%;width: 100%; margin-bottom: 50px;">
 
     <app-carousel></app-carousel>
 
-   
-        <div class="container justify-content-center" style="height: 100%;">
-            <div style="display: flex; place-content: center;">
-                <div class="d-flex"
-                    style="width: 80%; margin: 20px; place-content: center; background-color: #79AD00; border-radius: 10px; color: white;">
-                    <h2 style="margin: 10px; display: flex;text-align: center;">EN FRUTAS Y VERDURAS JCR, ESTAMOS PARA SERVIRLES..</h2>
-                </div>
-            </div>
-            <div class="d-flex" style="place-content: center; margin-top: 50px;">
-                <h1>Productos</h1>
-            </div>
-            
-            <hr style="height: 2px; border: none; background-color: black;">
 
-            <div style="width:100% ;height: 100%;">
-                <app-productos-frutas></app-productos-frutas>
+    <div class="container justify-content-center" style="height: 100%;">
+        <div style="display: flex; place-content: center;">
+            <div class="d-flex"
+                style="width: 80%; margin: 20px; place-content: center; background-color: #79AD00; border-radius: 10px; color: white;">
+                <h2 style="margin: 10px; display: flex;text-align: center;text-transform: uppercase;">Del campo a su
+                    mesa, le ofrecemos frutas y verduras siempre frescas...</h2>
             </div>
-            
-            
-            <div class="d-flex" style="place-content: center; margin-top: 50px;">
-                <h1>Direccion</h1>
-            </div>
+        </div>
+        <div class="d-flex" style="place-content: center; margin-top: 50px;">
+            <h1>Productos</h1>
+        </div>
+
+        <hr style="height: 2px; border: none; background-color: black;">
+
+        <div style="width:100% ;height: 100%;">
+            <app-productos-frutas></app-productos-frutas>
+        </div>
+
+
+        <div class="d-flex" style="place-content: center; margin-top: 50px; margin-bottom: 15px;">
+            <h1>Dirección</h1>
+        </div>
+
+        <div style="width: 100%; height: 500px; margin-bottom: 100px;">
+            <app-mapa></app-mapa>
+        </div>
+
 
     </div>
 </body>
+
+<footer>
+    <div class="card-footer text-muted d-flex flex-column flex-md-row mt-5"
+        style="background-color: #f5f5f5; place-content: center; width: 100%;height: 100%;">
+        <div class="col-12 col-md-4 mt-2 mb-2" style="place-content: center; text-align: center;">
+            <H5 style="display: flex; justify-content: center; align-items: center;"><span style=" margin-right: 5px;"
+                    class="material-symbols-outlined">
+                    schedule
+                </span>
+                Horario
+            </H5>
+            <p>Lunes - Sábado </p>
+            <p>8:00 am - 8:00 pm</p>
+            <p>Domingo</p>
+            <p>8:00 am - 6:00 pm</p>
+
+            <h5 style="display: flex; justify-content: center; align-items: center;">
+                <span style=" margin-right: 5px;" class="material-symbols-outlined" style="font-size: 30px;">
+                    location_on
+                </span>
+                Dirección Exacta
+            </h5>
+            <p> VWJ8+7CM, San José, San Juan de Dios </p>
+        </div>
+
+        <div class="col-12 col-md-4 mt-2 mb-2" style="place-content: center; text-align: center; justify-content: center;  align-items: center; ">
+            <div class="row">
+                <div class="col" style="margin-top: 20px;">
+                    <img src="assets/imagenes/logoJCR.png" alt=""
+                        style="width: 100%; max-width: 200px; max-height: 200px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style=" margin-bottom: 20px;">
+                    <div style="width: 100%;display: flex; place-content: center; margin-bottom: 10px;">
+                        <div style="background-color: #79AD00; width: 50%; color: white; border-radius: 20px;">
+                            <h5 style="margin: 5px;">!Servicio a Domicilio!</h5>
+                        </div>
+                    </div>
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100075986350425&mibextid=ZbWKwL" target="_blank"
+                        style="margin-right:10px;">
+                        <img src="assets/imagenes/facebook_logo.png" style="width: 40px;height: 40px;">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="assets/imagenes/instagram_logo.png"
+                            style="width: 40px;height: 40px;margin-right:5px;">
+                    </a>
+                    <a href="https://wa.me/70704750" target="_blank">
+                        <img src="assets/imagenes/WhatsApp_logo.png" style="width: 50px;height: 50px;">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="col-12 col-md-4 mt-4 mb-2" style="place-content: center; text-align: center;">
+            <H5>Contáctenos</H5>
+            <p>Correo: <a style="text-decoration: none;"
+                    href="mailto:verdurasyfrutasjcr&#64;gmail.com">verdurasyfrutasjcr&#64;gmail.com</a></p>
+            <p>Teléfonos:</p>
+            <p>(+506) 7070 4750</p>
+
+            <H5>Métodos de pago</H5>
+            <img src="assets/imagenes/sinpe_logo.jpeg" style="width: 60px;height: 60px; border-radius: 20px;">
+            <img src="assets/imagenes/tarjetas.png" style="width: 160px;height: 60px; border-radius: 20px;">
+        </div>
+    </div>
+
+
+
+</footer>

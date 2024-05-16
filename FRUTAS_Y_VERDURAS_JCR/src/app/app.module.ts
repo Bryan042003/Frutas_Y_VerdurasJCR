@@ -9,6 +9,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ProductosFrutasComponent } from './productos-frutas/productos-frutas.component';
 import { ProductosVerdurasComponent } from './productos-verduras/productos-verduras.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { MapaComponent } from './mapa/mapa.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     HeaderComponent,
     CarouselComponent,
     ProductosFrutasComponent,
-    ProductosVerdurasComponent
+    ProductosVerdurasComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,

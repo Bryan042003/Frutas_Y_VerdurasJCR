@@ -19,6 +19,10 @@
     color: white;
 }
 
+
+.nav-link{
+    font-size: 25px;
+}
 .imagen{
     width: 150px;
     height: 150px;
